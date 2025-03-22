@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Dribble</title>
+    <style>
+
+      .marquee {
+        animation-name: Anime;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+      }
+      .marquee2 {
+        animation-name: Anime2;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+      }
+
+      .marquee:hover {
+            animation-play-state: paused;
+        }
+
+      .heart:hover {
+        color: red;
+        object-fit: fill;
+      }
+
+
+      @keyframes Anime {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-148%);
+  }
+}
+      @keyframes Anime2 {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-179%);
+  }
+}
+
+    </style>
+  </head>
+  <body >
+    <div class="main h-screen overflow-x-hidden w-screen bg-[#f8f7f4]">
+      <div
+        class="nav relative h-20 w-full flex items-center justify-between px-6"
+      >
+        <div class="nav-part-1 flex items-center gap-6">
+          <img class="w-28" src="images/Dribble_Logo1.png" alt="" />
+          <h4 class="hidden lg:block font-semibold text-sm">
+            Find Talent <i class="ri-arrow-down-s-line"></i>
+          </h4>
+          <h4 class="hidden lg:block font-semibold text-sm">Inspiration</h4>
+          <h4 class="hidden lg:block font-semibold text-sm">Learn design</h4>
+          <h4 class="hidden lg:block font-semibold text-sm">Jobs</h4>
+          <h4 class="hidden lg:block font-semibold text-sm">Go Pro</h4>
+        </div>
+        <div class="nav-part-2 flex items-center gap-2">
+          <button
+            class="px-4 py-2 text-sm font-semibold rounded-3xl text-black"
+          >
+            Log in
+          </button>
+          <button class="px-4 py-2 text-sm bg-black rounded-3xl text-white">
+            Sign up
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="content h-[calc(100%-80px)] w-full center-text flex items-center justify-center flex-col gap-7"
+      >
+        <h3
+          class="font-semibold sm:text-xs lg:text-xl bg-[#ffc4ad] px-4 py-2 rounded-3xl"
+        >
+          Over million ready-to-work creatives!
+        </h3>
+
+        <h1
+          class="font-medium sm:text-3xl md:text-5xl lg:text-7xl w-2/3 text-center"
+        >
+          The world's destination for design
+        </h1>
+        <h4 class="font-semibold text-xl">
+          Get Inspired by the work of millions of top-rated design & agencies
+          around the world.
+        </h4>
+        <button
+          class="text-sm font-semibold text-white bg-[rgb(14,12,34)] px-6 py-4 rounded-full"
+        >
+          Get started
+        </button>
+      </div>
+
+      <div class="scroll flex w-full h-[50vh] ">
+      <div
+        class="marquee flex gap-4 w-[140%] "
+      >
+        <div
+          class="cards relative shrink-0 h-full w-[20%] rounded-3xl overflow-hidden bg-pink-600"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="https://cdn.dribbble.com/uploads/47175/original/1fb34610061a95a007ac5e7b1dc53138.jpeg?1685645203&format=webp&resize=273x340&vertical=center"
+            alt=""
+          />
+          <div class="card-text absolute bottom-0 w-full h-24">
+            <div class="top px-4">
+              <h5 class="text-white text-sm">Victa Wille</h5>
+              <h5 class="text-white text-sm">Difital Designer</h5>
+            </div>
+            <div class="btm px-4 flex gap-2 mt-4">
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Mobile
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                UI
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                UX
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="cards relative shrink-0 h-full w-[20%] rounded-3xl overflow-hidden bg-pink-600"
+        >
+          <video
+            class="h-full w-full object-cover"
+            autoplay
+            loop
+            muted
+            src="
+          https://cdn.dribbble.com/uploads/47180/original/1def7b9fb30832c4af4353b325d9c3af.mp4?1685645402"
+          ></video>
+          <div class="card-text absolute bottom-0 w-full h-24">
+            <div class="top px-4">
+              <h5 class="text-white text-sm">Elif</h5>
+              <h5 class="text-white text-sm">Software Engineer</h5>
+            </div>
+            <div class="btm px-4 flex gap-2 mt-4">
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Mobile
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                AI
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                AL
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="cards relative shrink-0 h-full w-[20%] rounded-3xl overflow-hidden bg-pink-600"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="https://cdn.dribbble.com/uploads/47178/original/mercedes-bazan.png?1689174566&format=webp&resize=436x543&vertical=center"
+            alt=""
+          />
+          <div class="card-text absolute bottom-0 w-full h-24">
+            <div class="top px-4">
+              <h5 class="text-white text-sm">Emma</h5>
+              <h5 class="text-white text-sm">Graphic Designer</h5>
+            </div>
+            <div class="btm px-4 flex gap-2 mt-4">
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Designer
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                UI
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                UX
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="cards relative shrink-0 h-full w-[20%] rounded-3xl overflow-hidden bg-pink-600"
+        >
+          <video
+            class="h-full w-full object-cover"
+            autoplay
+            loop
+            muted
+            src="https://cdn.dribbble.com/uploads/47181/original/1e3a73a174484bef522b620c401cd00a.mp4?1685645427"
+          ></video>
+          <div class="card-text absolute bottom-0 w-full h-24">
+            <div class="top px-4">
+              <h5 class="text-white text-sm">Sophia</h5>
+              <h5 class="text-white text-sm">Architect</h5>
+            </div>
+            <div class="btm px-4 flex gap-2 mt-4">
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Architect
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Designer
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="cards relative shrink-0 h-full w-[20%] rounded-3xl overflow-hidden bg-pink-600"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="https://cdn.dribbble.com/uploads/47174/original/4f02d72fe701b15b2168a4954332427f.png?1685645150&format=webp&resize=436x543&vertical=center"
+            alt=""
+          />
+          <div class="card-text absolute bottom-0 w-full h-24">
+            <div class="top px-4">
+              <h5 class="text-white text-sm">Olivia</h5>
+              <h5 class="text-white text-sm">Data Analyst</h5>
+            </div>
+            <div class="btm px-4 flex gap-2 mt-4">
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Web
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Data Analyst
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="cards relative shrink-0 h-full w-[20%] rounded-3xl overflow-hidden bg-pink-600"
+        >
+          <video
+            class="h-full w-full object-cover"
+            autoplay
+            loop
+            muted
+            src="https://cdn.dribbble.com/uploads/47179/original/35d07cfebd303e05e688078015da0cc2.mp4?1685645373"
+          ></video>
+          <div class="card-text absolute bottom-0 w-full h-24">
+            <div class="top px-4">
+              <h5 class="text-white text-sm">Isabella Clark</h5>
+              <h5 class="text-white text-sm">Digital Marketing Consultant</h5>
+            </div>
+            <div class="btm px-4 flex gap-2 mt-4">
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Marketing
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                SCO
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Ads
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="cards relative shrink-0 h-full w-[20%] rounded-3xl overflow-hidden bg-pink-600"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="
+          https://cdn.dribbble.com/uploads/47173/original/Vladimir_Gruev.png?1689174896&format=webp&resize=436x543&vertical=center"
+            alt=""
+          />
+          <div class="card-text absolute bottom-0 w-full h-24">
+            <div class="top px-4">
+              <h5 class="text-white text-sm">Chloe Roberts</h5>
+              <h5 class="text-white text-sm">Mobile App Developer</h5>
+            </div>
+            <div class="btm px-4 flex gap-2 mt-4">
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Mobile
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                App
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Developer
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- ------------------------------------------- -->
+
+        <div
+          class="cards relative shrink-0 h-full w-[20%] rounded-3xl overflow-hidden bg-pink-600"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="https://cdn.dribbble.com/uploads/47175/original/1fb34610061a95a007ac5e7b1dc53138.jpeg?1685645183&format=webp&resize=273x340&vertical=center"
+            alt=""
+          />
+          <div class="card-text absolute bottom-0 w-full h-24">
+            <div class="top px-4">
+              <h5 class="text-white text-sm">Victa Wille</h5>
+              <h5 class="text-white text-sm">Difital Designer</h5>
+            </div>
+            <div class="btm px-4 flex gap-2 mt-4">
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Mobile
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                UI
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                UX
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="cards relative shrink-0 h-full w-[20%] rounded-3xl overflow-hidden bg-pink-600"
+        >
+          <video
+            class="h-full w-full object-cover"
+            autoplay
+            loop
+            muted
+            src="
+          https://cdn.dribbble.com/uploads/47180/original/1def7b9fb30832c4af4353b325d9c3af.mp4?1685645402"
+          ></video>
+          <div class="card-text absolute bottom-0 w-full h-24">
+            <div class="top px-4">
+              <h5 class="text-white text-sm">Elif</h5>
+              <h5 class="text-white text-sm">Software Engineer</h5>
+            </div>
+            <div class="btm px-4 flex gap-2 mt-4">
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Mobile
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                AI
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                AL
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="cards relative shrink-0 h-full w-[20%] rounded-3xl overflow-hidden bg-pink-600"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="https://cdn.dribbble.com/uploads/47178/original/mercedes-bazan.png?1689174566&format=webp&resize=436x543&vertical=center"
+            alt=""
+          />
+          <div class="card-text absolute bottom-0 w-full h-24">
+            <div class="top px-4">
+              <h5 class="text-white text-sm">Emma</h5>
+              <h5 class="text-white text-sm">Graphic Designer</h5>
+            </div>
+            <div class="btm px-4 flex gap-2 mt-4">
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Designer
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                UI
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                UX
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="cards relative shrink-0 h-full w-[20%] rounded-3xl overflow-hidden bg-pink-600"
+        >
+          <video
+            class="h-full w-full object-cover"
+            autoplay
+            loop
+            muted
+            src="https://cdn.dribbble.com/uploads/47181/original/1e3a73a174484bef522b620c401cd00a.mp4?1685645427"
+          ></video>
+          <div class="card-text absolute bottom-0 w-full h-24">
+            <div class="top px-4">
+              <h5 class="text-white text-sm">Sophia</h5>
+              <h5 class="text-white text-sm">Architect</h5>
+            </div>
+            <div class="btm px-4 flex gap-2 mt-4">
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Architect
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Designer
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="cards relative shrink-0 h-full w-[20%] rounded-3xl overflow-hidden bg-pink-600"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="https://cdn.dribbble.com/uploads/47174/original/4f02d72fe701b15b2168a4954332427f.png?1685645150&format=webp&resize=436x543&vertical=center"
+            alt=""
+          />
+          <div class="card-text absolute bottom-0 w-full h-24">
+            <div class="top px-4">
+              <h5 class="text-white text-sm">Olivia</h5>
+              <h5 class="text-white text-sm">Data Analyst</h5>
+            </div>
+            <div class="btm px-4 flex gap-2 mt-4">
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Web
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Data Analyst
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="cards relative shrink-0 h-full w-[20%] rounded-3xl overflow-hidden bg-pink-600"
+        >
+          <video
+            class="h-full w-full object-cover"
+            autoplay
+            loop
+            muted
+            src="https://cdn.dribbble.com/uploads/47179/original/35d07cfebd303e05e688078015da0cc2.mp4?1685645373"
+          ></video>
+          <div class="card-text absolute bottom-0 w-full h-24">
+            <div class="top px-4">
+              <h5 class="text-white text-sm">Isabella Clark</h5>
+              <h5 class="text-white text-sm">Digital Marketing Consultant</h5>
+            </div>
+            <div class="btm px-4 flex gap-2 mt-4">
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Marketing
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                SCO
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Ads
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="cards relative shrink-0 h-full w-[20%] rounded-3xl overflow-hidden bg-pink-600"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="
+          https://cdn.dribbble.com/uploads/47173/original/Vladimir_Gruev.png?1689174896&format=webp&resize=436x543&vertical=center"
+            alt=""
+          />
+          <div class="card-text absolute bottom-0 w-full h-24">
+            <div class="top px-4">
+              <h5 class="text-white text-sm">Chloe Roberts</h5>
+              <h5 class="text-white text-sm">Mobile App Developer</h5>
+            </div>
+            <div class="btm px-4 flex gap-2 mt-4">
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Mobile
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                App
+              </h5>
+              <h5
+                class="text-white text-xs px-4 py-1 border-white border-2 rounded-full"
+              >
+                Developer
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>  
+      </div>
+
+      <h1 class="w-full h-36 py-10 text-center font-semibold text-5xl">
+        Explore Inspiring design
+      </h1>
+
+      <div class="inspiration h-2/4 px-8 w-full gap-4 flex items-center">
+        <div class="box relative w-96 h-64">
+          <div class="b-top h-4/5 w-full">
+            <img
+              class="h-full w-full object-cover rounded-xl"
+              src="https://cdn.dribbble.com/userupload/16949755/file/original-814e34bb9a9b809f0a16f2a06cfdaf32.jpg?resize=320x240&vertical=center"
+              alt=""
+            />
+          </div>
+          <div class="b-btm h-1/5 flex items-center gap-2">
+            <img
+              class="h-4/5 w-10 rounded-full"
+              src="https://cdn.dribbble.com/users/40992/avatars/small/3ad0e0fa5dc79f145a7e7e8c2165e511.jpg?1623764291"
+              alt=""
+            />
+            <h5 class="text-sm font-semibold cursor-pointer">Zilling ...</h5>
+            <button
+              class="bg-gray-400 text-white font-semibold px-2 rounded-md text-sm"
+            >
+              Pro
+            </button>
+            <i class="ri-heart-fill cursor-pointer heart"></i>
+            <h6 class="font-semibold"><i>158</i></h6>
+            <i class="ri-eye-fill"></i>
+            <h6 class="font-semibold"><i>4.7k</i></h6>
+          </div>
+        </div>
+        <div class="box relative w-96 h-64">
+          <div class="b-top h-4/5 w-full">
+            <img
+              class="h-full w-full object-cover rounded-xl"
+              src="https://cdn.dribbble.com/userupload/16953171/file/original-eef32946c9d9df599e8e9c9a8bc0e8df.png?resize=320x240&vertical=center"
+              alt=""
+            />
+          </div>
+          <div class="b-btm h-1/5 flex items-center gap-2">
+            <img
+              class="h-4/5 w-10 rounded-full"
+              src="https://cdn.dribbble.com/userupload/16952585/file/original-74d4764b9b119c3bd2b412ece12aae43.png?resize=320x240&vertical=center"
+              alt=""
+            />
+            <h5 class="text-sm font-semibold cursor-pointer">Plainthing ...</h5>
+            <button
+              class="bg-gray-400 text-white font-semibold px-2 rounded-md text-sm"
+            >
+              Pro
+            </button>
+            <i class="ri-heart-fill cursor-pointer heart"></i>
+            <h6 class="font-semibold text-sm"><i>513</i></h6>
+            <i class="ri-eye-fill"></i>
+            <h6 class="font-semibold text-sm"><i>5.2k</i></h6>
+          </div>
+        </div>
+        <div class="box relative w-96 h-64">
+          <div class="b-top h-4/5 w-full">
+            <img
+              class="h-full w-full object-cover rounded-xl"
+              src="https://cdn.dribbble.com/userupload/16952585/file/original-74d4764b9b119c3bd2b412ece12aae43.png?resize=320x240&vertical=center"
+              alt=""
+            />
+          </div>
+          <div class="b-btm h-1/5 flex items-center gap-2">
+            <img
+              class="h-4/5 w-10 rounded-full"
+              src="https://cdn.dribbble.com/users/6487750/avatars/small/9bfce022a9a629ee36d31ce439020ba2.png?1714974300"
+              alt=""
+            />
+            <h5 class="text-sm font-semibold cursor-pointer">Keitoto</h5>
+            <button
+              class="bg-gray-400 text-white font-semibold px-2 rounded-md text-sm"
+            >
+              Team
+            </button>
+            <i class="ri-heart-fill cursor-pointer heart"></i>
+            <h6 class="font-semibold"><i>58</i></h6>
+            <i class="ri-eye-fill"></i>
+            <h6 class="font-semibold"><i>957</i></h6>
+          </div>
+        </div>
+        <div class="box relative w-96 h-64">
+          <div class="b-top h-4/5 w-full">
+            <img
+              class="h-full w-full object-cover rounded-3xl"
+              src="https://cdn.dribbble.com/userupload/16949019/file/original-44fbc5ce3f95b60e039a938755531810.jpg?crop=0x276-1378x1310&resize=320x240&vertical=center"
+              alt=""
+            />
+          </div>
+          <div class="b-btm h-1/5 flex items-center gap-2">
+            <img
+              class="h-4/5 w-10 rounded-full"
+              src="https://cdn.dribbble.com/users/642843/avatars/small/2b39190ace5de8929f1ac4a305208613.png?1725712388"
+              alt=""
+            />
+            <h5 class="text-sm font-semibold cursor-pointer">Romain...</h5>
+            <button
+              class="bg-gray-400 text-white font-semibold px-2 rounded-md text-sm"
+            >
+              Pro
+            </button>
+            <i class="ri-heart-fill cursor-pointer heart"></i>
+            <h6 class="font-semibold"><i>558</i></h6>
+            <i class="ri-eye-fill"></i>
+            <h6 class="font-semibold"><i>4.2k</i></h6>
+          </div>
+        </div>
+      </div>
+      <div class="inspiration h-2/4 px-8 w-full gap-4 flex items-center">
+        <div class="box relative w-96 h-64">
+          <div class="b-top h-4/5 w-full">
+            <img
+              class="h-full w-full object-cover rounded-xl"
+              src="https://cdn.dribbble.com/userupload/16949755/file/original-814e34bb9a9b809f0a16f2a06cfdaf32.jpg?resize=320x240&vertical=center"
+              alt=""
+            />
+          </div>
+          <div class="b-btm h-1/5 flex items-center gap-2">
+            <img
+              class="h-4/5 w-10 rounded-full"
+              src="https://cdn.dribbble.com/users/40992/avatars/small/3ad0e0fa5dc79f145a7e7e8c2165e511.jpg?1623764291"
+              alt=""
+            />
+            <h5 class="text-sm font-semibold cursor-pointer">Zilling ...</h5>
+            <button
+              class="bg-gray-400 text-white font-semibold px-2 rounded-md text-sm"
+            >
+              Pro
+            </button>
+            <i class="ri-heart-fill cursor-pointer heart"></i>
+            <h6 class="font-semibold"><i>158</i></h6>
+            <i class="ri-eye-fill"></i>
+            <h6 class="font-semibold"><i>4.7k</i></h6>
+          </div>
+        </div>
+        <div class="box relative w-96 h-64">
+          <div class="b-top h-4/5 w-full">
+            <img
+              class="h-full w-full object-cover rounded-xl"
+              src="https://cdn.dribbble.com/userupload/16953171/file/original-eef32946c9d9df599e8e9c9a8bc0e8df.png?resize=320x240&vertical=center"
+              alt=""
+            />
+          </div>
+          <div class="b-btm h-1/5 flex items-center gap-2">
+            <img
+              class="h-4/5 w-10 rounded-full"
+              src="https://cdn.dribbble.com/userupload/16952585/file/original-74d4764b9b119c3bd2b412ece12aae43.png?resize=320x240&vertical=center"
+              alt=""
+            />
+            <h5 class="text-sm font-semibold cursor-pointer">Plainthing ...</h5>
+            <button
+              class="bg-gray-400 text-white font-semibold px-2 rounded-md text-sm"
+            >
+              Pro
+            </button>
+            <i class="ri-heart-fill cursor-pointer heart"></i>
+            <h6 class="font-semibold text-sm"><i>513</i></h6>
+            <i class="ri-eye-fill"></i>
+            <h6 class="font-semibold text-sm"><i>5.2k</i></h6>
+          </div>
+        </div>
+        <div class="box relative w-96 h-64">
+          <div class="b-top h-4/5 w-full">
+            <img
+              class="h-full w-full object-cover rounded-xl"
+              src="https://cdn.dribbble.com/userupload/16952585/file/original-74d4764b9b119c3bd2b412ece12aae43.png?resize=320x240&vertical=center"
+              alt=""
+            />
+          </div>
+          <div class="b-btm h-1/5 flex items-center gap-2">
+            <img
+              class="h-4/5 w-10 rounded-full"
+              src="https://cdn.dribbble.com/users/6487750/avatars/small/9bfce022a9a629ee36d31ce439020ba2.png?1714974300"
+              alt=""
+            />
+            <h5 class="text-sm font-semibold cursor-pointer">Keitoto</h5>
+            <button
+              class="bg-gray-400 text-white font-semibold px-2 rounded-md text-sm"
+            >
+              Team
+            </button>
+            <i class="ri-heart-fill cursor-pointer heart"></i>
+            <h6 class="font-semibold"><i>58</i></h6>
+            <i class="ri-eye-fill"></i>
+            <h6 class="font-semibold"><i>957</i></h6>
+          </div>
+        </div>
+        <div class="box relative w-96 h-64">
+          <div class="b-top h-4/5 w-full">
+            <img
+              class="h-full w-full object-cover rounded-3xl"
+              src="https://cdn.dribbble.com/userupload/16949019/file/original-44fbc5ce3f95b60e039a938755531810.jpg?crop=0x276-1378x1310&resize=320x240&vertical=center"
+              alt=""
+            />
+          </div>
+          <div class="b-btm h-1/5 flex items-center gap-2">
+            <img
+              class="h-4/5 w-10 rounded-full"
+              src="https://cdn.dribbble.com/users/642843/avatars/small/2b39190ace5de8929f1ac4a305208613.png?1725712388"
+              alt=""
+            />
+            <h5 class="text-sm font-semibold cursor-pointer">Romain...</h5>
+            <button
+              class="bg-gray-400 text-white font-semibold px-2 rounded-md text-sm"
+            >
+              Pro
+            </button>
+            <i class="ri-heart-fill cursor-pointer heart"></i>
+            <h6 class="font-semibold"><i>558</i></h6>
+            <i class="ri-eye-fill"></i>
+            <h6 class="font-semibold"><i>4.2k</i></h6>
+          </div>
+        </div>
+      </div>
+      <div class="inspiration h-2/4 px-8 w-full gap-4 flex items-center">
+        <div class="box relative w-96 h-64">
+          <div class="b-top h-4/5 w-full">
+            <img
+              class="h-full w-full object-cover rounded-xl"
+              src="https://cdn.dribbble.com/userupload/16949755/file/original-814e34bb9a9b809f0a16f2a06cfdaf32.jpg?resize=320x240&vertical=center"
+              alt=""
+            />
+          </div>
+          <div class="b-btm h-1/5 flex items-center gap-2">
+            <img
+              class="h-4/5 w-10 rounded-full"
+              src="https://cdn.dribbble.com/users/40992/avatars/small/3ad0e0fa5dc79f145a7e7e8c2165e511.jpg?1623764291"
+              alt=""
+            />
+            <h5 class="text-sm font-semibold cursor-pointer">Zilling ...</h5>
+            <button
+              class="bg-gray-400 text-white font-semibold px-2 rounded-md text-sm"
+            >
+              Pro
+            </button>
+            <i class="ri-heart-fill cursor-pointer heart"></i>
+            <h6 class="font-semibold"><i>158</i></h6>
+            <i class="ri-eye-fill"></i>
+            <h6 class="font-semibold"><i>4.7k</i></h6>
+          </div>
+        </div>
+        <div class="box relative w-96 h-64">
+          <div class="b-top h-4/5 w-full">
+            <img
+              class="h-full w-full object-cover rounded-xl"
+              src="https://cdn.dribbble.com/userupload/16953171/file/original-eef32946c9d9df599e8e9c9a8bc0e8df.png?resize=320x240&vertical=center"
+              alt=""
+            />
+          </div>
+          <div class="b-btm h-1/5 flex items-center gap-2">
+            <img
+              class="h-4/5 w-10 rounded-full"
+              src="https://cdn.dribbble.com/userupload/16952585/file/original-74d4764b9b119c3bd2b412ece12aae43.png?resize=320x240&vertical=center"
+              alt=""
+            />
+            <h5 class="text-sm font-semibold cursor-pointer">Plainthing ...</h5>
+            <button
+              class="bg-gray-400 text-white font-semibold px-2 rounded-md text-sm"
+            >
+              Pro
+            </button>
+            <i class="ri-heart-fill cursor-pointer heart"></i>
+            <h6 class="font-semibold text-sm"><i>513</i></h6>
+            <i class="ri-eye-fill"></i>
+            <h6 class="font-semibold text-sm"><i>5.2k</i></h6>
+          </div>
+        </div>
+        <div class="box relative w-96 h-64">
+          <div class="b-top h-4/5 w-full">
+            <img
+              class="h-full w-full object-cover rounded-xl"
+              src="https://cdn.dribbble.com/userupload/16952585/file/original-74d4764b9b119c3bd2b412ece12aae43.png?resize=320x240&vertical=center"
+              alt=""
+            />
+          </div>
+          <div class="b-btm h-1/5 flex items-center gap-2">
+            <img
+              class="h-4/5 w-10 rounded-full"
+              src="https://cdn.dribbble.com/users/6487750/avatars/small/9bfce022a9a629ee36d31ce439020ba2.png?1714974300"
+              alt=""
+            />
+            <h5 class="text-sm font-semibold cursor-pointer">Keitoto</h5>
+            <button
+              class="bg-gray-400 text-white font-semibold px-2 rounded-md text-sm"
+            >
+              Team
+            </button>
+            <i class="ri-heart-fill cursor-pointer heart"></i>
+            <h6 class="font-semibold"><i>58</i></h6>
+            <i class="ri-eye-fill"></i>
+            <h6 class="font-semibold"><i>957</i></h6>
+          </div>
+        </div>
+        <div class="box relative w-96 h-64">
+          <div class="b-top h-4/5 w-full">
+            <img
+              class="h-full w-full object-cover rounded-3xl"
+              src="https://cdn.dribbble.com/userupload/16949019/file/original-44fbc5ce3f95b60e039a938755531810.jpg?crop=0x276-1378x1310&resize=320x240&vertical=center"
+              alt=""
+            />
+          </div>
+          <div class="b-btm h-1/5 flex items-center gap-2">
+            <img
+              class="h-4/5 w-10 rounded-full"
+              src="https://cdn.dribbble.com/users/642843/avatars/small/2b39190ace5de8929f1ac4a305208613.png?1725712388"
+              alt=""
+            />
+            <h5 class="text-sm font-semibold cursor-pointer">Romain...</h5>
+            <button
+              class="bg-gray-400 text-white font-semibold px-2 rounded-md text-sm"
+            >
+              Pro
+            </button>
+            <i class="ri-heart-fill cursor-pointer heart"></i>
+            <h6 class="font-semibold"><i>558</i></h6>
+            <i class="ri-eye-fill"></i>
+            <h6 class="font-semibold"><i>4.2k</i></h6>
+          </div>
+        </div>
+      </div>
+      <div class="inspiration h-2/4 px-8 w-full gap-4 flex items-center">
+        <div class="box relative w-96 h-64">
+          <div class="b-top h-4/5 w-full">
+            <img
+              class="h-full w-full object-cover rounded-xl"
+              src="https://cdn.dribbble.com/userupload/16949755/file/original-814e34bb9a9b809f0a16f2a06cfdaf32.jpg?resize=320x240&vertical=center"
+              alt=""
+            />
+          </div>
+          <div class="b-btm h-1/5 flex items-center gap-2">
+            <img
+              class="h-4/5 w-10 rounded-full"
+              src="https://cdn.dribbble.com/users/40992/avatars/small/3ad0e0fa5dc79f145a7e7e8c2165e511.jpg?1623764291"
+              alt=""
+            />
+            <h5 class="text-sm font-semibold cursor-pointer">Zilling ...</h5>
+            <button
+              class="bg-gray-400 text-white font-semibold px-2 rounded-md text-sm"
+            >
+              Pro
+            </button>
+            <i class="ri-heart-fill cursor-pointer heart"></i>
+            <h6 class="font-semibold"><i>158</i></h6>
+            <i class="ri-eye-fill"></i>
+            <h6 class="font-semibold"><i>4.7k</i></h6>
+          </div>
+        </div>
+        <div class="box relative w-96 h-64">
+          <div class="b-top h-4/5 w-full">
+            <img
+              class="h-full w-full object-cover rounded-xl"
+              src="https://cdn.dribbble.com/userupload/16953171/file/original-eef32946c9d9df599e8e9c9a8bc0e8df.png?resize=320x240&vertical=center"
+              alt=""
+            />
+          </div>
+          <div class="b-btm h-1/5 flex items-center gap-2">
+            <img
+              class="h-4/5 w-10 rounded-full"
+              src="https://cdn.dribbble.com/userupload/16952585/file/original-74d4764b9b119c3bd2b412ece12aae43.png?resize=320x240&vertical=center"
+              alt=""
+            />
+            <h5 class="text-sm font-semibold cursor-pointer">Plainthing ...</h5>
+            <button
+              class="bg-gray-400 text-white font-semibold px-2 rounded-md text-sm"
+            >
+              Pro
+            </button>
+            <i class="ri-heart-fill cursor-pointer heart"></i>
+            <h6 class="font-semibold text-sm"><i>513</i></h6>
+            <i class="ri-eye-fill"></i>
+            <h6 class="font-semibold text-sm"><i>5.2k</i></h6>
+          </div>
+        </div>
+        <div class="box relative w-96 h-64">
+          <div class="b-top h-4/5 w-full">
+            <img
+              class="h-full w-full object-cover rounded-xl"
+              src="https://cdn.dribbble.com/userupload/16952585/file/original-74d4764b9b119c3bd2b412ece12aae43.png?resize=320x240&vertical=center"
+              alt=""
+            />
+          </div>
+          <div class="b-btm h-1/5 flex items-center gap-2">
+            <img
+              class="h-4/5 w-10 rounded-full"
+              src="https://cdn.dribbble.com/users/6487750/avatars/small/9bfce022a9a629ee36d31ce439020ba2.png?1714974300"
+              alt=""
+            />
+            <h5 class="text-sm font-semibold cursor-pointer">Keitoto</h5>
+            <button
+              class="bg-gray-400 text-white font-semibold px-2 rounded-md text-sm"
+            >
+              Team
+            </button>
+            <i class="ri-heart-fill cursor-pointer heart"></i>
+            <h6 class="font-semibold"><i>58</i></h6>
+            <i class="ri-eye-fill"></i>
+            <h6 class="font-semibold"><i>957</i></h6>
+          </div>
+        </div>
+        <div class="box relative w-96 h-64">
+          <div class="b-top h-4/5 w-full">
+            <img
+              class="h-full w-full object-cover rounded-3xl"
+              src="https://cdn.dribbble.com/userupload/16949019/file/original-44fbc5ce3f95b60e039a938755531810.jpg?crop=0x276-1378x1310&resize=320x240&vertical=center"
+              alt=""
+            />
+          </div>
+          <div class="b-btm h-1/5 flex items-center gap-2">
+            <img
+              class="h-4/5 w-10 rounded-full"
+              src="https://cdn.dribbble.com/users/642843/avatars/small/2b39190ace5de8929f1ac4a305208613.png?1725712388"
+              alt=""
+            />
+            <h5 class="text-sm font-semibold cursor-pointer">Romain...</h5>
+            <button
+              class="bg-gray-400 text-white font-semibold px-2 rounded-md text-sm"
+            >
+              Pro
+            </button>
+            <i class="ri-heart-fill cursor-pointer heart"></i>
+            <h6 class="font-semibold"><i>558</i></h6>
+            <i class="ri-eye-fill"></i>
+            <h6 class="font-semibold"><i>4.2k</i></h6>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="page3 h-full w-full gap-7 flex flex-col justify-center items-center bg-[#ffda79]"
+      >
+        <h1 class="text-6xl w-1/3 font-semibold">
+          Find your next designer today
+        </h1>
+        <h4 class="text-xl w-2/4 text-center font-medium opacity-70">
+          The world's leading brands use Dribbbleto hire creative talent. <br />
+          Browse millions of top-rated portfolios to find perfect creative
+          match.
+        </h4>
+        <div class="btns">
+          <button
+            class="text-sm font-semibold mr-5 px-4 py-4 rounded-3xl text-white bg-black"
+          >
+            Get started now
+          </button>
+          <button
+            class="text-sm font-bold px-4 py-4 rounded-3xl text-black bg-white"
+          >
+            Learn about hiring
+          </button>
+        </div>
+        <div class="h3 flex">
+          <h3 class="text-xl font-semibold opacity-90">Are you a designer ?</h3>
+          <h3
+            class="text-xl font-semibold underline underline-offset-4 opacity-90"
+          >
+            Join Dribble
+          </h3>
+        </div>
+      </div>
+      <div class="scroll flex w-full h-[35vh] ">
+              <div
+                class="marquee2 flex gap-4 h-full w-auto   "
+              >
+        
+                <div class="scroll-boxs shrink-0   mr-5 mt-4 relative h-[90%] w-[20%]">
+                  <img
+                    class="h-[85%] w-full object-cover rounded-lg"
+                    src="https://cdn.dribbble.com/userupload/16116505/file/original-f2caa5da0b7f7f4c7c64a233d1a28723.png?format=webp&resize=200x150&vertical=center"
+                    alt=""
+                  />
+                  <h1 class="text-base font-semibold">Print</h1>
+                </div>
+                <div class="scroll-boxs shrink-0  mr-5 mt-4 relative h-[90%] w-[20%]">
+                  <img
+                    class="h-[85%] w-full object-cover rounded-lg"
+                    src="https://cdn.dribbble.com/userupload/16305659/file/original-c7758f4192a1e0b4b721351fef094ad6.jpg?format=webp&resize=200x150&vertical=center"
+                    alt=""
+                  />
+                  <h1 class="text-base font-semibold">Branding</h1>
+                </div>
+                <div class="scroll-boxs shrink-0  mr-5 mt-4 relative h-[90%] w-[20%]">
+                  <img
+                    class="h-[85%] w-full object-cover rounded-lg"
+                    src="https://cdn.dribbble.com/userupload/16452205/file/original-114536af3a7204d5c3d07990cb0c764a.png?format=webp&resize=200x150&vertical=center"
+                    alt=""
+                  />
+                  <h1 class="text-base font-semibold">Web Design</h1>
+                </div>
+                <div class="scroll-boxs shrink-0  mr-5 mt-4 relative h-[90%] w-[20%]">
+                  <img
+                    class="h-[85%] w-full object-cover rounded-lg"
+                    src="https://cdn.dribbble.com/userupload/16086080/file/original-c5b8230ecdc5a1ef3decb0cc5bc7da54.png?format=webp&resize=200x150&vertical=center"
+                    alt=""
+                  />
+                  <h1 class="text-base font-semibold">Typography</h1>
+                </div>
+                <div class="scroll-boxs shrink-0  mr-5 mt-4 relative h-[90%] w-[20%]">
+                  <img
+                    class="h-[85%] w-full object-cover rounded-lg"
+                    src="https://cdn.dribbble.com/userupload/16439366/file/original-fe0661cecb3f5f91a38b94d69a1bfeca.jpg?format=webp&resize=200x150&vertical=center"
+                    alt=""
+                  />
+                  <h1 class="text-base font-semibold">Product Design</h1>
+                </div>
+                <div class="scroll-boxs shrink-0  mr-5 mt-4 relative h-[90%] w-[20%]">
+                  <img
+                    class="h-[85%] w-full object-cover rounded-lg"
+                    src="https://cdn.dribbble.com/userupload/16493099/file/original-d2fa4928230371433cf36608375c85e8.png?format=webp&resize=200x150&vertical=center"
+                    alt=""
+                  />
+                  <h1 class="text-base font-semibold">Mobile</h1>
+                </div>
+                <div class="scroll-boxs shrink-0  mr-5 mt-4 relative h-[90%] w-[20%]">
+                  <img
+                    class="h-[85%] w-full object-cover rounded-lg"
+                    src="https://cdn.dribbble.com/userupload/16455782/file/still-8b9ba61f3a6397572a4e03a827c61278.png?format=webp&resize=200x150&vertical=center"
+                    alt=""
+                  />
+                  <h1 class="text-base font-semibold">Animation</h1>
+                </div>
+                <!-- <div class="scroll-boxs shrink-0  mr-5 mt-4 relative h-[90%] w-[20%]">
+                  <img
+                    class="h-[85%] w-full object-cover rounded-lg"
+                    src="https://cdn.dribbble.com/userupload/16461003/file/original-40da9caebd81c1495a21ba884dae678e.png?format=webp&resize=200x150&vertical=center"
+                    alt=""
+                  />
+                  <h1 class="text-base font-semibold">Illustration</h1>
+                </div> -->
+
+
+                <div class="scroll-boxs shrink-0   mr-5 mt-4 relative h-[90%] w-[20%]">
+                  <img
+                    class="h-[85%] w-full object-cover rounded-lg"
+                    src="https://cdn.dribbble.com/userupload/16116505/file/original-f2caa5da0b7f7f4c7c64a233d1a28723.png?format=webp&resize=200x150&vertical=center"
+                    alt=""
+                  />
+                  <h1 class="text-base font-semibold">Print</h1>
+                </div>
+                <div class="scroll-boxs shrink-0  mr-5 mt-4 relative h-[90%] w-[20%]">
+                  <img
+                    class="h-[85%] w-full object-cover rounded-lg"
+                    src="https://cdn.dribbble.com/userupload/16305659/file/original-c7758f4192a1e0b4b721351fef094ad6.jpg?format=webp&resize=200x150&vertical=center"
+                    alt=""
+                  />
+                  <h1 class="text-base font-semibold">Branding</h1>
+                </div>
+                <div class="scroll-boxs shrink-0  mr-5 mt-4 relative h-[90%] w-[20%]">
+                  <img
+                    class="h-[85%] w-full object-cover rounded-lg"
+                    src="https://cdn.dribbble.com/userupload/16452205/file/original-114536af3a7204d5c3d07990cb0c764a.png?format=webp&resize=200x150&vertical=center"
+                    alt=""
+                  />
+                  <h1 class="text-base font-semibold">Web Design</h1>
+                </div>
+                <div class="scroll-boxs shrink-0  mr-5 mt-4 relative h-[90%] w-[20%]">
+                  <img
+                    class="h-[85%] w-full object-cover rounded-lg"
+                    src="https://cdn.dribbble.com/userupload/16086080/file/original-c5b8230ecdc5a1ef3decb0cc5bc7da54.png?format=webp&resize=200x150&vertical=center"
+                    alt=""
+                  />
+                  <h1 class="text-base font-semibold">Typography</h1>
+                </div>
+                <div class="scroll-boxs shrink-0  mr-5 mt-4 relative h-[90%] w-[20%]">
+                  <img
+                    class="h-[85%] w-full object-cover rounded-lg"
+                    src="https://cdn.dribbble.com/userupload/16439366/file/original-fe0661cecb3f5f91a38b94d69a1bfeca.jpg?format=webp&resize=200x150&vertical=center"
+                    alt=""
+                  />
+                  <h1 class="text-base font-semibold">Product Design</h1>
+                </div>
+                <div class="scroll-boxs shrink-0  mr-5 mt-4 relative h-[90%] w-[20%]">
+                  <img
+                    class="h-[85%] w-full object-cover rounded-lg"
+                    src="https://cdn.dribbble.com/userupload/16493099/file/original-d2fa4928230371433cf36608375c85e8.png?format=webp&resize=200x150&vertical=center"
+                    alt=""
+                  />
+                  <h1 class="text-base font-semibold">Mobile</h1>
+                </div>
+                <div class="scroll-boxs shrink-0  mr-5 mt-4 relative h-[90%] w-[20%]">
+                  <img
+                    class="h-[85%] w-full object-cover rounded-lg"
+                    src="https://cdn.dribbble.com/userupload/16455782/file/still-8b9ba61f3a6397572a4e03a827c61278.png?format=webp&resize=200x150&vertical=center"
+                    alt=""
+                  />
+                  <h1 class="text-base font-semibold">Animation</h1>
+                </div>
+                <div class="scroll-boxs shrink-0  mr-5 mt-4 relative h-[90%] w-[20%]">
+                  <img
+                    class="h-[85%] w-full object-cover rounded-lg"
+                    src="https://cdn.dribbble.com/userupload/16461003/file/original-40da9caebd81c1495a21ba884dae678e.png?format=webp&resize=200x150&vertical=center"
+                    alt=""
+                  />
+                  <h1 class="text-base font-semibold">Illustration</h1>
+                </div>
+                
+              </div>
+      </div>
+
+  </body>
+</html>
